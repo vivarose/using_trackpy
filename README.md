@@ -6,7 +6,7 @@ I have a used trackpy with HDF5 xyt hyperstack movies and with avi movies. Here 
  This notebook 
  1. opens an HDF5 xyt hyperstack file, 
  2. converts it (slowly) into a file that can be used with trackpy, 
- 3. backgrounds the movie but recovers if there is not enough memory available, 
+ 3. background divides the movie but recovers if there is not enough memory available, 
  4. locates dark spots in the movie, 
  5. links these into trajectories, 
  6. filters out trajectories of few frames using filter_stubs, 
