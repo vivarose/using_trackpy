@@ -12,6 +12,8 @@ I have used trackpy with HDF5 xyt hyperstack movies and with avi movies. Here ar
  7. filters out trajectories of particles that move a distance below some threshold (currently 4 microns), and 
  8. saves the results (below an 'error' lines that prevents accidentally saving the results if you run the whole notebook.
 
+Note that displacement_um will overestimate the maximum extents of the particle trajectory because it obtains the extreme x and y independently, not as an (x,y) pair from the same frame.
+
 (original file name: 2015-09-15 movie150902,17 particles in droplet _ save trajectories, minimal human intervention, improved_2016-02-10.ipynb)
 
 ### backgrounding_color_avi_movie_examples.ipynb
