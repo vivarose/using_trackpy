@@ -3,14 +3,14 @@ I have used trackpy with HDF5 xyt hyperstack movies and with avi movies. Here ar
 
 ### tracking_avi_movie_and_saving_movie_of_trajectories.ipynb
 This notebook
-1. opens a color avi movie in greyscale,
-2. calculates median darkcount and bright background images, 
-3. backgrounds the movie with both darkcount and bright background images, but recovers if there is not enough memory available,
-4. locates dark spots in the movie with trackpy, 
-5. links these into trajectories with trackpy, 
-6. filters out trajectories of few frames using trackpy.filter_stubs, 
-7. saves the results, 
-8. creates a movie of the particle trajectories.
+ 1. opens a color avi movie in greyscale,
+ 2. calculates median darkcount and bright background images, 
+ 3. backgrounds the movie with both darkcount and bright background images, but recovers if there is not enough memory available,
+ 4. locates dark spots in the movie with trackpy, 
+ 5. links these into trajectories with trackpy, 
+ 6. filters out trajectories of few frames using trackpy.filter_stubs, 
+ 7. saves the results, 
+ 8. creates a movie of the particle trajectories.
 
 (original file name: 2016-02-11_tracking_movie_2016-01-26-01_60x1.0_Hematite_swimmers.ipynb)
 
