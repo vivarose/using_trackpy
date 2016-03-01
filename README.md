@@ -5,8 +5,6 @@ I have used trackpy with HDF5 xyt hyperstack movies and with avi movies. Here ar
 Using ipyparallel is recommended in the trackpy walkthrough for speeding up particle tracking. Here I have implemented it.
 This notebook 
  1. opens a color avi movie in greyscale,
- 2. calculates median darkcount and bright background images, 
- 3. backgrounds the movie with both darkcount and bright background images, but recovers if there is not enough memory available,
  4. imports ipyparallel for parallel processing, (You will need to start the appropriate number of engines either in the clusters tab or from the command line.)
  5. locates dark spots in the movie with trackpy and parallel processing,
  6. filters out trajectories of few frames using trackpy.filter_stubs.
