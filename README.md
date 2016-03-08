@@ -39,6 +39,9 @@ Note that displacement_um will overestimate the maximum extents of the particle 
 
 (original file name: 2015-09-15 movie150902,17 particles in droplet _ save trajectories, minimal human intervention, improved_2016-02-10.ipynb)
 
+### MSD_standard_deviation.ipynb
+This notebook explores the standard deviation in the ensemble mean square displacement.
+
 ### backgrounding_color_avi_movie_examples.ipynb
 This notebook shows some examples of how to work with a color avi file in python. If you run into errors opening an avi file using pims, make sure to run the setup script, available at https://github.com/vivarose/setup_script.
 
