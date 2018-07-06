@@ -46,3 +46,8 @@ This notebook explores the standard deviation in the ensemble mean square displa
 This notebook shows some examples of how to work with a color avi file in python. If you run into errors opening an avi file using pims, make sure to run the setup script, available at https://github.com/vivarose/setup_script.
 
 (original file name: 2015-02-20 & 06-25 & 07-01 Background subtracting color -- red swimmers and blue tracers.ipynb)
+
+### Rotational_drift_subtract_entire_movie.ipynb
+An implementation of rotational drift subtraction. Particles that are tracked are assumed to have correlated three-dimensional motion; this removes that average motion.
+
+(original file name: 2016-08-04_Rotational_drift_subtract_entire_movie.ipynb)
